@@ -6,7 +6,7 @@ var hourNow = today.getHours();
 var greeting;
 
 if ((hourNow >=0)&& (hourNow <=4)){
-  greeting = 'Late the night, pay attention to the body!';
+  greeting = 'Late night, take rest!';
 }else if ((hourNow >=4)&& (hourNow <=12)){
   greeting = 'Good Morning!';
 }else if ((hourNow >=12)&& (hourNow <=13)){
