@@ -19,8 +19,8 @@ if ((hourNow >=0)&& (hourNow <=4)){
   greeting = 'Time to enjoy the dinner!';
 }else if ((hourNow >=20)&& (hourNow <=22)){
   greeting = 'Good Evening!';
-}else if ((hourNow >=22)&& (hourNow <=0)){
-  greeting = 'Time to go to bed!';
+}else {
+  greeting = 'Time to go bed!';
 }
 // if (hourNow >18){
 //   greeting = 'Good Evening!';
